@@ -1,0 +1,31 @@
+{
+  "name": "feignjs-xhr",
+  "version": "0.0.4",
+  "homepage": "https://github.com/feignjs/feignjs-xhr",
+  "authors": [
+    "Peter Mucha <ptmucha@gmail.com>"
+  ],
+  "description": "feignjs rest client",
+  "main": "dist/feign-xhr.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "feignjs",
+    "rest",
+    "client",
+    "xhr"
+  ],
+  "dependencies": {
+    "args-js": "^0.10.6",
+    "lodash": "^3.9.3",
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
