@@ -38,7 +38,7 @@ var FeignXhr = (function(window){
 			if (options.method === 'GET' || parameters === null){
 				parameters = undefined;
 			}
-			request.send(parameters);
+			xhr.send(parameters);
 		
 		
 	  });
@@ -59,7 +59,7 @@ var FeignXhr = (function(window){
 	    }, this.defaults);
 		
 	    
-		if (method === 'GET' && parameters){
+		if (xhrOptions.method === 'GET' && parameters){
 			var url = new URL(xhrOptions.url);
 			var paramQryString = _.chain(parameters).pairs()._map(function(pair){
 				return pair.join('=');
