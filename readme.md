@@ -22,7 +22,6 @@ The constructor accepts an options-object:
 
 | Option | Note | default
 |---|---|---|
-| defaults | defaults to be used | {} |
-
+| defaults | defaults to be used | { method: null, url: null, async: true, user: null,password: null}
 
 

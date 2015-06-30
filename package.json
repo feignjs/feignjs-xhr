@@ -1,0 +1,33 @@
+{
+  "name": "feignjs-xhr",
+  "version": "0.0.4",
+  "description": "feignjs xhr client integration",
+  "scripts": {
+    "test": "npm test",
+    "bower": "npm run uglify",
+    "uglify": "node_modules/.bin/uglifyjs dist/feign-xhr.js -o dist/feign-xhr.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feignjs/feignjs-xhr.git"
+  },
+  "keywords": [
+    "feignjs",
+    "rest",
+    "client",
+    "declarative",
+    "xhr"
+  ],
+  "private": true,
+  "author": "Peter Mucha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/feignjs/feignjs-jquery/issues"
+  },
+  "homepage": "https://github.com/feignjs/feignjs-jquery#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "uglify-js": "^2.4.23"
+  }
+}
