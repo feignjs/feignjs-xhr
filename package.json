@@ -1,6 +1,6 @@
 {
   "name": "feignjs-xhr",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "feignjs xhr client integration",
   "scripts": {
     "test": "npm test",
